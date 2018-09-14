@@ -400,46 +400,21 @@
       
         
           
-            <p>先来让我们看看这个，然后写出它的代码和注释  </p>
-<p>html部分：<br>&lt;!DOCTYPE html&gt;</p>
-<p><html></html></p>
-<p><head></head></p>
-<p><meta charset="UTF-8"></p>
-<p><title>demo</title><br></p>
-<p><body><br>    <div class="demo"><div class="demo-animation"></div></div><br></body><br><br>css部分：<br>.demo{<br>    width: 300px;<br>    height: 300px;<br>    border: 1px solid #000;<br>}/<em>这个不是重点,下面那个才是</em>/<br>.demo-animation{<br>    width: 100px;/<em>宽度100像素</em>/<br>    height: 100px;/<em>高度100像素</em>/<br>    background: #f00;/<em>背景色为#f00(红色)</em>/<br>    position: relative;/<em>定位为相对，因为我想让它只在这框框的范围内移动</em>/<br>    left: 0px;/<em>这是在没有动画情况下的位置距离左侧0像素</em>/<br>    top: 0px;/<em>距离顶部0像素</em>/<br>    animation: demo1 5s;/<em>    所有动画属性的简写属性，除了 animation-play-state 属性，animation-name(名字)为demo，animation-duration(动画耗时)为5s</em>/<br>    animation-iteration-count: infinite;/*animation-iteration-count(动画播放次数)为无限*/<br>}<br>@keyframes demo1{/<em>@keyframes为规定动画</em>/<br>    0%{left: 0px; top: 0px;}/<em>在动画进行到0%时，方块demo-animation的位置为left:0px;top:0px;</em>/<br>    25%{left: 200px; top: 0px;}/<em>在动画进行到25%时，方块demo-animation的位置为left:200px;top: 0px;后面的以此类推</em>/<br>    50%{left: 200px; top: 200px;}<br>    75%{left: 0px; top: 200px;}<br>    100%{left: 0px; top: 0px;}<br>}/<em>其中值得注意的时position在.demo-animation已经提到了，所以在规定动画时不需要在提它，然后用margin好像不行，我也不知道行不行，反正我用着会出问题。</em>/</p>
-<p>然后，这是关于animation熟悉的一张表格：</p>
-<p>属性</p>
-<p>描述</p>
-<p>CSS</p>
-<p>@keyframes</p>
-<p>规定动画。</p>
-<p>3</p>
-<p>animation</p>
-<p>所有动画属性的简写属性，除了 animation-play-state 属性。</p>
-<p>3</p>
-<p>animation-name</p>
-<p>规定 @keyframes 动画的名称。</p>
-<p>3</p>
-<p>animation-duration</p>
-<p>规定动画完成一个周期所花费的秒或毫秒。默认是 0。</p>
-<p>3</p>
-<p>animation-timing-function</p>
-<p>规定动画的速度曲线。默认是 “ease”。</p>
-<p>3</p>
-<p>animation-delay</p>
-<p>规定动画何时开始。默认是 0。</p>
-<p>3</p>
-<p>animation-iteration-count</p>
-<p>规定动画被播放的次数。默认是 1。</p>
-<p>3</p>
-<p>animation-direction</p>
-<p>规定动画是否在下一周期逆向地播放。默认是 “normal”。</p>
-<p>3</p>
-<p>animation-play-state</p>
-<p>规定动画是否正在运行或暂停。默认是 “running”。</p>
-<p>3</p>
+          先来让我们看看这个，然后写出它的代码和注释  
+html部分：&lt;!DOCTYPE html&gt;
 
-          
+
+
+demo
+    css部分：.demo{    width: 300px;    height: 300px;    border: 1px solid #000;}/这个不是重点,下面
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/03/18/47/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -605,10 +580,17 @@
       
         
           
-            <h1 id="其实吧-很简单"><a href="#其实吧-很简单" class="headerlink" title="其实吧~很简单~"></a>其实吧~很简单~</h1><p>我就是想划个水,略略略</p>
-<p>首先去<a href="https://music.163.com" target="_blank" rel="noopener">网易云音乐的官网</a> ,然后登陆你的网易云账号，找到你想要做为BGM的歌曲<a href="http://cloud.css0209.cn/css0209img/music-01.png" target="_blank" rel="noopener"><img src="http://cloud.css0209.cn/css0209img/music-01.png" alt="网易云音乐"></a><br>然后点击截图中红框里的“生成外链播放器”即可<br>至于整首歌单嘛，也是差不多的道理~我也不多做解释了<img src="http://cloud.css0209.cn/css0209img/notime.jpg" alt="就是个表情"><a href="http://cloud.css0209.cn/css0209img/music-02.png" target="_blank" rel="noopener"><img src="http://cloud.css0209.cn/css0209img/music-02.png" alt=""></a></p>
+          其实吧~很简单~我就是想划个水,略略略
+首先去网易云音乐的官网 ,然后登陆你的网易云账号，找到你想要做为BGM的歌曲然后点击截图中红框里的“生成外链播放器”即可至于整首歌单嘛，也是差不多的道理~我也不多做解释了
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/03/18/39/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -774,33 +756,17 @@
       
         
           
-            <h1 id="常用的html标签及简单的网页"><a href="#常用的html标签及简单的网页" class="headerlink" title="常用的html标签及简单的网页"></a>常用的html标签及简单的网页</h1><p>   前端的基础中的基础，想要写出网站，这些标签是一定要记的，在使用它们时，得像平时说话一样的写出来，这里我就按照我的标签的常用顺序，来写出我们常用的标签。</p>
-<p><code>&lt;p&gt;首先是我正在输入的这些&lt;/p&gt;</code>  </p>
-<p>最基础的p标签，p标签定义一个段落。在p标签内输入emmm文字</p>
-<h1 id="lt-h1-gt-然后是h标签-lt-h1-gt"><a href="#lt-h1-gt-然后是h标签-lt-h1-gt" class="headerlink" title="&lt;h1&gt;然后是h标签&lt;/h1&gt;"></a><code>&lt;h1&gt;然后是h标签&lt;/h1&gt;</code></h1><p>h标签用来定义标题，从1到6逐渐变小</p>
-<p><code>&lt;a href=&quot;#&quot;&gt;[a标签是定义一个链接](#)&lt;/a&gt;</code><br><code>&lt;img src=&quot;...&quot;&gt;用来定义一个图像</code><br><code>&lt;!--这个是注释的写法--&gt;</code><br><code>&lt;br /&gt;  
-是折行&lt;br /&gt;  
-标签</code><br>标签是没有结束标签的,并且输入<br>也可以折行，但是为网页长远考虑的话建议使用<br>别问我为什么，自己右上角<br><code>接下来是&lt;head&gt;标签，在&lt;head&gt;标签内的内容不会显示给用户。&lt;head&gt;元素内可以插入插件(script)，样式文件(css)以及各种&lt;meta&gt;信息.可以添加在头部区域的元素标签为: &lt;title&gt;, &lt;style&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;, &lt;noscript&gt;, 和 &lt;base&gt;</code>  </p>
-<h2 id="接下来写个简单的网页"><a href="#接下来写个简单的网页" class="headerlink" title="接下来写个简单的网页"></a>接下来写个简单的网页</h2><p>我个人是比较喜欢实战理解的</p>
-<p>举个栗子：</p>
-<pre><code>&lt;!doctype html&gt;&lt;!--声明html文件--&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meda charset=&quot;utf-8&quot;&gt;&lt;!--这里编码为utf-8国际通用编码--&gt;
-&lt;title&gt;这里是网站标题&lt;/title&gt;
-&lt;link href=&quot;...&quot; rel=&quot;stylesheet&quot;&gt;&lt;!--这是引用外联css文件rel等号后面内容是为了声明这是一个css文件--&gt;
-&lt;style&gt;....&lt;/style&gt;&lt;!--这里是内联css--&gt;
-&lt;/head&gt;
-&lt;body&gt;&lt;!--在body标签内的内容会显示给用户，但是head内的不会--&gt;
-...
-...
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre><p>HTML中，大多数的标签都有起始标签和结束标签，透明一般会成对出现，不过既然是大多数的话当然就有几个例外╮(╯-╰)╭，这些就是那几个妖怪： </p>
-<pre><code>&lt;br&gt;&lt;hr&gt;&lt;img&gt;&lt;input&gt;&lt;param&gt;&lt;meta&gt;&lt;link&gt;
-</code></pre><p>别问我为什么，反正就是这样规定的</p>
-
-          
+          常用的html标签及简单的网页   前端的基础中的基础，想要写出网站，这些标签是一定要记的，在使用它们时，得像平时说话一样的写出来，这里我就按照我的标签的常用顺序，来写出我们常用的标签。
+&lt;p&gt;首先是我正在输入的这些&lt;/p&gt;  
+最基础的p标签，p标签定义一个段落。在p标签内
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/03/18/6/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
