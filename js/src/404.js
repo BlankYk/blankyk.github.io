@@ -18,7 +18,7 @@ $('.four-oh-four-form').on('submit', function(e){
 	 if (val === 'kittens'){
     showKittens();
   }else if(val === 'blankyk'){
-      document.url='https://css0209.cn';
+      window.location='https://css0209.cn';
   }else {
     resetForm();
   }
