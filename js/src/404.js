@@ -74,7 +74,7 @@ function showBlankyk(){
 	"<p class='prompt'>                                                              </p></div>");
 	window.location='https://css0209.cn';
 																																					
-}
+
 		
 		var lines = $('.kittens p');
 		$.each(lines, function(index, line){
