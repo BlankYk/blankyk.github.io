@@ -72,7 +72,7 @@ function showBlankyk(){
 	"<p class='prompt'> $$    $$/ $$       |$$ |  $$ |$$ | $$$ |$$ | $$  |    $$ |    $$ | $$  |</p>" +
 	"<p class='prompt'> $$$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/ $$/   $$/     $$/     $$/   $$/ </p>" +
 	"<p class='prompt'>                                                              </p></div>");
-	window.location='https://css0209.cn';
+	setTimeout("window.location='https://css0209.cn';",3000);
 																																					
 
 		
