@@ -18,7 +18,7 @@ $('.four-oh-four-form').on('submit', function(e){
 	 if (val === 'kittens'){
     showKittens();
   }else if(val === 'blankyk'){
-      window.location='https://css0209.cn';
+		showBlankyk();
   }else {
     resetForm();
   }
@@ -59,7 +59,22 @@ function resetForm(withKittens){
 								 "<p class='prompt'>;   |,'     '---'                                  |   | ,'   ;   |.'                    `-- -`, ; </p>" +
 								 "<p class='prompt'>'---'                                              `----'     '---'                        '---`'</p>" +
 								 "<p class='prompt'>                                                              </p></div>");
-
+	}
+function showBlankyk(){
+	$('.terminal').append("<div class='kittens'>"+
+	"<p class='prompt'>  _______   __         ______   __    __  __    __  __      __  __    __ </p>" +
+	"<p class='prompt'> /       \ /  |       /      \ /  \  /  |/  |  /  |/  \    /  |/  |  /  |</p>" +
+	"<p class='prompt'> $$$$$$$  |$$ |      /$$$$$$  |$$  \ $$ |$$ | /$$/ $$  \  /$$/ $$ | /$$/ </p>" +
+	"<p class='prompt'> $$ |__$$ |$$ |      $$ |__$$ |$$$  \$$ |$$ |/$$/   $$  \/$$/  $$ |/$$/  </p>" +
+	"<p class='prompt'> $$    $$< $$ |      $$    $$ |$$$$  $$ |$$  $$<     $$  $$/   $$  $$<   </p>" +
+	"<p class='prompt'> $$$$$$$  |$$ |      $$$$$$$$ |$$ $$ $$ |$$$$$  \     $$$$/    $$$$$  \  </p>" +
+	"<p class='prompt'> $$ |__$$ |$$ |_____ $$ |  $$ |$$ |$$$$ |$$ |$$  \     $$ |    $$ |$$  \ </p>" +
+	"<p class='prompt'> $$    $$/ $$       |$$ |  $$ |$$ | $$$ |$$ | $$  |    $$ |    $$ | $$  |</p>" +
+	"<p class='prompt'> $$$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/ $$/   $$/     $$/     $$/   $$/ </p>" +
+	"<p class='prompt'>                                                              </p></div>");
+	window.location='https://css0209.cn';
+																																					
+}
 		
 		var lines = $('.kittens p');
 		$.each(lines, function(index, line){
