@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://css0209.cn/"/>
-  <updated>2018-09-18T06:40:06.000Z</updated>
+  <updated>2018-09-18T17:32:26.000Z</updated>
   <id>http://css0209.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客船新改版 hexo+NexT</title>
+    <link href="http://css0209.cn/2018/09/19/cjm7zzivc000m660666d9kdm3/"/>
+    <id>http://css0209.cn/2018/09/19/cjm7zzivc000m660666d9kdm3/</id>
+    <published>2018-09-18T16:02:19.000Z</published>
+    <updated>2018-09-18T17:32:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为什么改用hexo了？而不是WordPress-wp"><a href="#为什么改用hexo了？而不是WordPress-wp" class="headerlink" title="为什么改用hexo了？而不是WordPress(wp)"></a>为什么改用hexo了？而不是WordPress(wp)</h1><h2 id="喜欢上hexo"><a href="#喜欢上hexo" class="headerlink" title="喜欢上hexo"></a>喜欢上hexo</h2><p>实际上我觉得wp写文章更舒服写，不过，我还是觉得hexo好😂，就我个人而言的话，有一下几点比较吸引我</p><ul><li>自定义强，样式，脚本，页面，随便爆改，只要你有能力，同一个主题，不同的感觉，我觉得吧，学编程嘛，有时候就得爱折腾</li><li>代码易看懂，只要学过<code>html</code>,<code>css</code>,<code>js</code>应该都看的懂大部分代码吧，爆改属性增加</li><li>使用markdown写文章，我其实接触MarkDown并不深，但是，我还是挺喜欢的❤️</li><li>静态页面</li><li>其他大佬都在用（我也假装一波😏）</li></ul><p>有的人可能还会说部署到GitHub，不需要服务器方便，不过，我还是想部署到自己服务器上，所以在服务器部署上相对于wp要差一些，<br>但是在GitHub上就很简单了<br>那个Git-hook什么的现在都还没怎么懂，反正还是不安全的暴力的上传上去了</p><h2 id="讨厌wp"><a href="#讨厌wp" class="headerlink" title="讨厌wp"></a>讨厌wp</h2><p>wp的话和hexo比起来就有种特别庞大的感觉，以下几点我不太喜欢</p><ul><li>构成复杂，不易自定义，毕竟使用PHP+MySQL搭建的，主题的文件也很大，反正我是不愿意去看</li><li>很难找简约的主题，并不是找不到，是不好找，我是个喜欢简约风格的人，这点很不舒服，这里朋友<a href="http://blog.haowei.ch/" target="_blank" rel="noopener">Bamboo Sticks</a>给了我一个<br>主题：<a href="http://www.robertbrodziak.com/en/free-wordpress-themes/daily-theme/" target="_blank" rel="noopener">Daily</a></li><li>一报错就懵逼，我不了解这个网站的结构，不知道怎么构成的，它报个错误，我怎么知道什么情况</li></ul><p>其他的我就不说了，直接说这几天折腾了什么吧</p><h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><p>搭建的过程就不想多说了，用hexo的都是会玩的人，<br>会玩的都跑去看<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">官方文档</a>，谁还来看我这小破站哟🙄<br>本文就直接写搭建后的美化啊，部署什么的</p><h1 id="明天再写，碎觉"><a href="#明天再写，碎觉" class="headerlink" title="(明天再写，碎觉)"></a>(明天再写，碎觉)</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;为什么改用hexo了？而不是WordPress-wp&quot;&gt;&lt;a href=&quot;#为什么改用hexo了？而不是WordPress-wp&quot; class=&quot;headerlink&quot; title=&quot;为什么改用hexo了？而不是WordPress(wp)&quot;&gt;&lt;/a&gt;为什么改用he
+      
+    
+    </summary>
+    
+      <category term="web" scheme="http://css0209.cn/categories/web/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Git相关笔记</title>
