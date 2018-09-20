@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2018-09-20T05:34:30.000Z</updated>
+  <updated>2018-09-20T08:54:43.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://css0209.cn/20180919hexo-next/"/>
     <id>https://css0209.cn/20180919hexo-next/</id>
     <published>2018-09-18T16:02:19.000Z</published>
-    <updated>2018-09-20T05:34:30.000Z</updated>
+    <updated>2018-09-20T08:54:43.000Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,8 @@
       
         
         
-          &lt;h1 id=&quot;为什么改用hexo了？而不是WordPress-wp&quot;&gt;&lt;a href=&quot;#为什么改用hexo了？而不是WordPress-wp&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;为什么改用hexo了？而不是WordPress(wp)&lt;/h1&gt;
+&lt;h2
         
       
     
@@ -54,9 +55,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;菜鸟教程&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1
+&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot;
         
       
     
@@ -80,7 +79,8 @@
       
         
         
-          &lt;h2 id=&quot;解决方案1&quot;&gt;&lt;a href=&quot;#解决方案1&quot; class=&quot;headerlink&quot; title=&quot;解决方案1&quot;&gt;&lt;/a&gt;解决方案1&lt;/h2&gt;&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot;
+          &lt;h2 id=&quot;解决方案1&quot;&gt;解决方案1&lt;/h2&gt;
+&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;考试酷&lt;/a&gt;提交作业时发现不能直接粘贴答案进去
         
       
     
@@ -105,7 +105,8 @@
         
         
           &lt;p&gt;学校的端口号为95，是非安全端口，这里我来说一下这样用Chrome或者Firefox进入非安全端口&lt;/p&gt;
-&lt;h3 id=&quot;Firefox-Windows和Linux、macOS通用&quot;&gt;&lt;a href=&quot;#Firefox-Windows和Linux、macOS通用&quot;
+&lt;h3 id=&quot;firefox-windows和linux-macos通用&quot;&gt;Firefox:(Windows和Linux、macOS通用)&lt;/h3&gt;
+&lt;p&gt;(1)
         
       
     
@@ -129,7 +130,11 @@
       
         
         
-          &lt;h1 id=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;a href=&quot;#今天在学习Django时遇到一个问题&quot; class=&quot;headerlink&quot; title=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;/a&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;&lt;p&gt;#
+          &lt;h1&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;
+&lt;p&gt;# 首先安装Mysql驱动&lt;br&gt;
+&lt;code&gt;brew install mysql-connector-c&lt;/code&gt;&lt;br&gt;
+# 第一条到没什么问题，但是第二条命令。。。&lt;br&gt;
+&lt;code&gt;sudo pip
         
       
     
@@ -177,7 +182,8 @@
       
         
         
-          &lt;h1 id=&quot;本篇文章以四川航天职业技术学院教务系统为例&quot;&gt;&lt;a href=&quot;#本篇文章以四川航天职业技术学院教务系统为例&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;本篇文章以四川航天职业技术学院教务系统为例&lt;/h1&gt;
+&lt;p&gt;由于学校把课表关闭了，所以我现在先爬取的成绩查询 本项目的完整代码地址：&lt;a href=&quot;https://github.com/idoctype/zhengfang&quot; target=&quot;_blank&quot;
         
       
     
@@ -201,7 +207,11 @@
       
         
         
-          &lt;h1 id=&quot;Eclipse下载及汉化&quot;&gt;&lt;a href=&quot;#Eclipse下载及汉化&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;Eclipse下载及汉化&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;下载Eclipse&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;官网的下载地址&lt;a href=&quot;https://www.eclipse.org/downloads/&quot; target=&quot;_blank&quot;
         
       
     
@@ -225,7 +235,15 @@
       
         
         
-          &lt;h1 id=&quot;JAVA环境安装&quot;&gt;&lt;a href=&quot;#JAVA环境安装&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;JAVA环境安装&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;下载JDK包&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a
         
       
     
@@ -249,7 +267,11 @@
       
         
         
-          &lt;h1 id=&quot;QQ，微信如何自动抢红包&quot;&gt;&lt;a href=&quot;#QQ，微信如何自动抢红包&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;QQ，微信如何自动抢红包&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是Xposed?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Xposed框架是一款可以在不修改APK的情况下影响程序运行(修改系统)的框架服务，
         
       
     
@@ -273,7 +295,12 @@
       
         
         
-          &lt;h1 id=&quot;将文件上传到（全世界最大的同性恋交友网站-￣ε-￣-）Github&quot;&gt;&lt;a href=&quot;#将文件上传到（全世界最大的同性恋交友网站-￣ε-￣-）Github&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;将文件上传到（全世界最大的同性恋交友网站(￣ε(#￣)）Github&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先在Github上创建一个账号&lt;/p&gt;
+&lt;p&gt;如果说英语不好的，可以用谷歌浏览器的自带翻译&lt;/p&gt;
+&lt;p&gt;先前往网站&lt;a
         
       
     
@@ -297,11 +324,16 @@
       
         
         
-          &lt;p&gt;先来让我们看看这个，然后写出它的代码和注释  &lt;/p&gt;
-&lt;p&gt;html部分：&lt;br&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
-&lt;p&gt;&lt;head&gt;&lt;/head&gt;&lt;/p&gt;
-&lt;p&gt;&lt;meta
+          &lt;p&gt;先来让我们看看这个，然后写出它的代码和注释&lt;/p&gt;
+&lt;p&gt;html部分：&lt;/p&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div
         
       
     
@@ -325,8 +357,9 @@
       
         
         
-          &lt;h1 id=&quot;其实吧-很简单&quot;&gt;&lt;a href=&quot;#其实吧-很简单&quot; class=&quot;headerlink&quot; title=&quot;其实吧~很简单~&quot;&gt;&lt;/a&gt;其实吧~很简单~&lt;/h1&gt;&lt;p&gt;我就是想划个水,略略略&lt;/p&gt;
-&lt;p&gt;首先去&lt;a
+          &lt;h1&gt;其实吧&lt;sub&gt;很简单&lt;/sub&gt;&lt;/h1&gt;
+&lt;p&gt;我就是想划个水,略略略&lt;/p&gt;
+&lt;p&gt;首先去&lt;a href=&quot;https://music.163.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;网易云音乐的官网&lt;/a&gt;
         
       
     
@@ -350,7 +383,9 @@
       
         
         
-          &lt;h1 id=&quot;常用的html标签及简单的网页&quot;&gt;&lt;a href=&quot;#常用的html标签及简单的网页&quot; class=&quot;headerlink&quot; title=&quot;常用的html标签及简单的网页&quot;&gt;&lt;/a&gt;常用的html标签及简单的网页&lt;/h1&gt;&lt;p&gt;  
+          &lt;h1&gt;常用的html标签及简单的网页&lt;/h1&gt;
+&lt;p&gt;前端的基础中的基础，想要写出网站，这些标签是一定要记的，在使用它们时，得像平时说话一样的写出来，这里我就按照我的标签的常用顺序，来写出我们常用的标签。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;p&amp;gt;首先是我正在输入的这些&amp;lt
         
       
     
