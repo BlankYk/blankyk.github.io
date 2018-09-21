@@ -59,7 +59,7 @@ function resetForm(withKittens){
 								 "<p class='prompt'>;   |,'     '---'                                  |   | ,'   ;   |.'                    `-- -`, ; </p>" +
 								 "<p class='prompt'>'---'                                              `----'     '---'                        '---`'</p>" +
 								 "<p class='prompt'>                                                              </p></div>");
-	}
+
 	function showBlankyk() {
     $('.terminal').append("<div class='kittens'>" +
       "<p class='prompt'>  _______   __         ______   __    __  __    __  __      __  __    __ </p>" +
@@ -73,9 +73,7 @@ function resetForm(withKittens){
       "<p class='prompt'> $$$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/ $$/   $$/     $$/     $$/   $$/ </p>" +
       "<p class='prompt'>                                                              </p></div>");
     setTimeout("window.location='https://css0209.cn';", 3000);
-  }
-
-
+    
 		var lines = $('.kittens p');
 		$.each(lines, function(index, line){
 			setTimeout(function(){
