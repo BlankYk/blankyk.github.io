@@ -83,7 +83,6 @@ $.each(lines, function (index, line) {
     $(line).css({
       "opacity": 1
     });
-
     textEffect($(line))
   }, index * 100);
 });
@@ -91,16 +90,6 @@ $.each(lines, function (index, line) {
 $('.new-output').velocity(
   'scroll'
 ), {duration: 100}
-
-setTimeout(function () {
-  var gif;
-
-  $.get('https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=kittens', function (result) {
-    gif = result.data.image_url;
-    $('.terminal').append('<img class="kitten-gif" src="' + gif + '"">');
-    resetForm(true);
-  });
-}, (lines.length * 100) + 1000);
 
 
 function textEffect(line) {
