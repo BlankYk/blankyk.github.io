@@ -60,20 +60,6 @@ function resetForm(withKittens){
 								 "<p class='prompt'>'---'                                              `----'     '---'                        '---`'</p>" +
 								 "<p class='prompt'>                                                              </p></div>");
 
-	function showBlankyk() {
-    $('.terminal').append("<div class='kittens'>" +
-      "<p class='prompt'>  _______   __         ______   __    __  __    __  __      __  __    __ </p>" +
-      "<p class='prompt'> /       \ /  |       /      \ /  \  /  |/  |  /  |/  \    /  |/  |  /  |</p>" +
-      "<p class='prompt'> $$$$$$$  |$$ |      /$$$$$$  |$$  \ $$ |$$ | /$$/ $$  \  /$$/ $$ | /$$/ </p>" +
-      "<p class='prompt'> $$ |__$$ |$$ |      $$ |__$$ |$$$  \$$ |$$ |/$$/   $$  \/$$/  $$ |/$$/  </p>" +
-      "<p class='prompt'> $$    $$< $$ |      $$    $$ |$$$$  $$ |$$  $$<     $$  $$/   $$  $$<   </p>" +
-      "<p class='prompt'> $$$$$$$  |$$ |      $$$$$$$$ |$$ $$ $$ |$$$$$  \     $$$$/    $$$$$  \  </p>" +
-      "<p class='prompt'> $$ |__$$ |$$ |_____ $$ |  $$ |$$ |$$$$ |$$ |$$  \     $$ |    $$ |$$  \ </p>" +
-      "<p class='prompt'> $$    $$/ $$       |$$ |  $$ |$$ | $$$ |$$ | $$  |    $$ |    $$ | $$  |</p>" +
-      "<p class='prompt'> $$$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/ $$/   $$/     $$/     $$/   $$/ </p>" +
-      "<p class='prompt'>                                                              </p></div>");
-    setTimeout("window.location='https://css0209.cn';", 3000);
-    
 		var lines = $('.kittens p');
 		$.each(lines, function(index, line){
 			setTimeout(function(){
@@ -99,6 +85,46 @@ function resetForm(withKittens){
 			});
 		}, (lines.length * 100) + 1000);
 	}
+
+function showBlankyk() {
+  $('.terminal').append("<div class='kittens'>" +
+    "<p class='prompt'>  _______   __         ______   __    __  __    __  __      __  __    __ </p>" +
+    "<p class='prompt'> /       \ /  |       /      \ /  \  /  |/  |  /  |/  \    /  |/  |  /  |</p>" +
+    "<p class='prompt'> $$$$$$$  |$$ |      /$$$$$$  |$$  \ $$ |$$ | /$$/ $$  \  /$$/ $$ | /$$/ </p>" +
+    "<p class='prompt'> $$ |__$$ |$$ |      $$ |__$$ |$$$  \$$ |$$ |/$$/   $$  \/$$/  $$ |/$$/  </p>" +
+    "<p class='prompt'> $$    $$< $$ |      $$    $$ |$$$$  $$ |$$  $$<     $$  $$/   $$  $$<   </p>" +
+    "<p class='prompt'> $$$$$$$  |$$ |      $$$$$$$$ |$$ $$ $$ |$$$$$  \     $$$$/    $$$$$  \  </p>" +
+    "<p class='prompt'> $$ |__$$ |$$ |_____ $$ |  $$ |$$ |$$$$ |$$ |$$  \     $$ |    $$ |$$  \ </p>" +
+    "<p class='prompt'> $$    $$/ $$       |$$ |  $$ |$$ | $$$ |$$ | $$  |    $$ |    $$ | $$  |</p>" +
+    "<p class='prompt'> $$$$$$$/  $$$$$$$$/ $$/   $$/ $$/   $$/ $$/   $$/     $$/     $$/   $$/ </p>" +
+    "<p class='prompt'>                                                              </p></div>");
+  setTimeout("window.location='https://css0209.cn';", 3000);
+
+  var lines = $('.kittens p');
+  $.each(lines, function(index, line){
+    setTimeout(function(){
+      $(line).css({
+        "opacity": 1
+      });
+
+      textEffect($(line))
+    }, index * 100);
+  });
+
+  $('.new-output').velocity(
+    'scroll'
+  ), {duration: 100}
+
+  setTimeout(function(){
+    var gif;
+
+    $.get('http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=kittens', function(result){
+      gif = result.data.image_url;
+      $('.terminal').append('<img class="kitten-gif" src="' + gif + '"">');
+      resetForm(true);
+    });
+  }, (lines.length * 100) + 1000);
+}
 
 	function textEffect(line){
 		var alpha = [';', '.', ',', ':', ';', '~', '`'];
