@@ -101,7 +101,7 @@ function resetForm(withKittens){
 				resetForm(true);
 			});
 		}, (lines.length * 100) + 1000);
-	
+
 
 	function textEffect(line){
 		var alpha = [';', '.', ',', ':', ';', '~', '`'];
