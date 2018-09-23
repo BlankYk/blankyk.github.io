@@ -29,8 +29,7 @@
       
         
         
-          &lt;h1&gt;为什么改用hexo了？而不是WordPress(wp)&lt;/h1&gt;
-&lt;h2
+          &lt;h1 id=&quot;为什么改用hexo了？而不是WordPress-wp&quot;&gt;&lt;a href=&quot;#为什么改用hexo了？而不是WordPress-wp&quot; class=&quot;headerlink&quot;
         
       
     
@@ -55,7 +54,9 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot;
+&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;菜鸟教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1
         
       
     
@@ -79,8 +80,7 @@
       
         
         
-          &lt;h2 id=&quot;解决方案1&quot;&gt;解决方案1&lt;/h2&gt;
-&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;考试酷&lt;/a&gt;提交作业时发现不能直接粘贴答案进去
+          &lt;h2 id=&quot;解决方案1&quot;&gt;&lt;a href=&quot;#解决方案1&quot; class=&quot;headerlink&quot; title=&quot;解决方案1&quot;&gt;&lt;/a&gt;解决方案1&lt;/h2&gt;&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot;
         
       
     
@@ -105,9 +105,7 @@
         
         
           &lt;p&gt;学校的端口号为95，是非安全端口，这里我来说一下这样用Chrome或者Firefox进入非安全端口&lt;/p&gt;
-&lt;h1&gt;Firefox:(Windows和Linux、macOS通用)&lt;/h1&gt;
-&lt;p&gt;(1) about:config进入参数设置界面&lt;br&gt;
-(2)
+&lt;h1 id=&quot;Firefox-Windows和Linux、macOS通用&quot;&gt;&lt;a href=&quot;#Firefox-Windows和Linux、macOS通用&quot;
         
       
     
@@ -131,11 +129,7 @@
       
         
         
-          &lt;h1&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;
-&lt;p&gt;# 首先安装Mysql驱动&lt;br&gt;
-&lt;code&gt;brew install mysql-connector-c&lt;/code&gt;&lt;br&gt;
-# 第一条到没什么问题，但是第二条命令。。。&lt;br&gt;
-&lt;code&gt;sudo pip
+          &lt;h1 id=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;a href=&quot;#今天在学习Django时遇到一个问题&quot; class=&quot;headerlink&quot; title=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;/a&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;&lt;p&gt;#
         
       
     
@@ -183,8 +177,7 @@
       
         
         
-          &lt;h1&gt;本篇文章以四川航天职业技术学院教务系统为例&lt;/h1&gt;
-&lt;p&gt;由于学校把课表关闭了，所以我现在先爬取的成绩查询 本项目的完整代码地址：&lt;a href=&quot;https://github.com/idoctype/zhengfang&quot; target=&quot;_blank&quot;
+          &lt;h1 id=&quot;本篇文章以四川航天职业技术学院教务系统为例&quot;&gt;&lt;a href=&quot;#本篇文章以四川航天职业技术学院教务系统为例&quot; class=&quot;headerlink&quot;
         
       
     
@@ -208,9 +201,7 @@
       
         
         
-          &lt;h1&gt;Eclipse下载及汉化&lt;/h1&gt;
-&lt;h2 id=&quot;下载eclipse&quot;&gt;下载Eclipse&lt;/h2&gt;
-&lt;p&gt;官网的下载地址&lt;a href=&quot;https://www.eclipse.org/downloads/&quot; target=&quot;_blank&quot;
+          &lt;h1 id=&quot;Eclipse下载及汉化&quot;&gt;&lt;a href=&quot;#Eclipse下载及汉化&quot; class=&quot;headerlink&quot; title=&quot;Eclipse下载及汉化&quot;&gt;&lt;/a&gt;Eclipse下载及汉化&lt;/h1&gt;&lt;h2 id=&quot;下载Eclipse&quot;&gt;&lt;a
         
       
     
@@ -234,9 +225,7 @@
       
         
         
-          &lt;h1&gt;JAVA环境安装&lt;/h1&gt;
-&lt;h2 id=&quot;下载jdk包&quot;&gt;下载JDK包&lt;/h2&gt;
-&lt;p&gt;&lt;a
+          &lt;h1 id=&quot;JAVA环境安装&quot;&gt;&lt;a href=&quot;#JAVA环境安装&quot; class=&quot;headerlink&quot; title=&quot;JAVA环境安装&quot;&gt;&lt;/a&gt;JAVA环境安装&lt;/h1&gt;&lt;h2 id=&quot;下载JDK包&quot;&gt;&lt;a href=&quot;#下载JDK包&quot;
         
       
     
@@ -260,9 +249,7 @@
       
         
         
-          &lt;h1&gt;QQ，微信如何自动抢红包&lt;/h1&gt;
-&lt;h2 id=&quot;xposed&quot;&gt;Xposed&lt;/h2&gt;
-&lt;p&gt;Xposed框架是一款可以在不修改APK的情况下影响程序运行(修改系统)的框架服务，
+          &lt;h1 id=&quot;QQ，微信如何自动抢红包&quot;&gt;&lt;a href=&quot;#QQ，微信如何自动抢红包&quot; class=&quot;headerlink&quot; title=&quot;QQ，微信如何自动抢红包&quot;&gt;&lt;/a&gt;QQ，微信如何自动抢红包&lt;/h1&gt;&lt;h2 id=&quot;Xposed&quot;&gt;&lt;a
         
       
     
@@ -286,16 +273,11 @@
       
         
         
-          &lt;p&gt;先来让我们看看这个，然后写出它的代码和注释&lt;/p&gt;
-&lt;p&gt;html部分：&lt;/p&gt;
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;demo&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-	&lt;div
+          &lt;p&gt;先来让我们看看这个，然后写出它的代码和注释  &lt;/p&gt;
+&lt;p&gt;html部分：&lt;br&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
+&lt;p&gt;&lt;head&gt;&lt;/head&gt;&lt;/p&gt;
+&lt;p&gt;&lt;meta
         
       
     
