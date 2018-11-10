@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://css0209.cn/aboutme/index.html</loc>
+    
+    <lastmod>2018-11-10T08:04:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://css0209.cn/20180919hexo-next/</loc>
     
     <lastmod>2018-11-08T13:57:08.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://css0209.cn/20181011busuanzi/</loc>
     
     <lastmod>2018-10-15T09:47:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://css0209.cn/aboutme/index.html</loc>
-    
-    <lastmod>2018-09-23T13:45:55.000Z</lastmod>
     
   </url>
   
