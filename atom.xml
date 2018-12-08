@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2018-12-08T07:15:20.000Z</updated>
+  <updated>2018-12-08T07:16:48.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>学校Linux，Samba服务器搭建</title>
-    <link href="https://css0209.cn/20181208cjpf4k2hg000gzu06y8ip59e3/"/>
-    <id>https://css0209.cn/20181208cjpf4k2hg000gzu06y8ip59e3/</id>
+    <link href="https://css0209.cn/20181208linux-samba/"/>
+    <id>https://css0209.cn/20181208linux-samba/</id>
     <published>2018-12-08T06:25:42.000Z</published>
-    <updated>2018-12-08T07:15:20.000Z</updated>
+    <updated>2018-12-08T07:16:48.000Z</updated>
     
     <summary type="html">
     
@@ -42,8 +42,8 @@
   
   <entry>
     <title>问题解决：java.lang.ClassNotFoundException: com.mysql.jdbc.Driver</title>
-    <link href="https://css0209.cn/20181205cjpf4k2hh000hzu06wpx1jjzp/"/>
-    <id>https://css0209.cn/20181205cjpf4k2hh000hzu06wpx1jjzp/</id>
+    <link href="https://css0209.cn/20181205cjpf4lyex000i0l06gw5ich30/"/>
+    <id>https://css0209.cn/20181205cjpf4lyex000i0l06gw5ich30/</id>
     <published>2018-12-05T07:21:40.000Z</published>
     <updated>2018-12-05T08:00:54.000Z</updated>
     
