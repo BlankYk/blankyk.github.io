@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2019-01-19T10:59:58.000Z</updated>
+  <updated>2019-01-20T17:30:12.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>李白打酒&amp;&amp;分考场</title>
+    <link href="https://css0209.cn/20190119lanqiao2019011901/"/>
+    <id>https://css0209.cn/20190119lanqiao2019011901/</id>
+    <published>2019-01-19T11:42:57.000Z</published>
+    <updated>2019-01-20T17:30:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;李白打酒&quot;&gt;&lt;a href=&quot;#李白打酒&quot; class=&quot;headerlink&quot; title=&quot;李白打酒&quot;&gt;&lt;/a&gt;李白打酒&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;   
+        
+      
+    
+    </summary>
+    
+      <category term="蓝桥杯训练" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF%E8%AE%AD%E7%BB%83/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>特殊回文数&amp;&amp;最少乘法次数</title>
