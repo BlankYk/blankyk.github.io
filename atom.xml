@@ -29,7 +29,9 @@
       
         
         
-          &lt;h1 id=&quot;刽子手&quot;&gt;&lt;a href=&quot;#刽子手&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;刽子手&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;刽子手游戏其实是一款猜单词游戏。游戏规则是这样的：计算机想一个单词让你猜，你每次可以猜一个字母。如果单词里有那个字母，所有该字母会显示出来；如果没有那个字母，则计算机会在一幅“刽子手”画上填一笔。这幅画一共需要7笔就能完成
         
       
     
@@ -53,7 +55,9 @@
       
         
         
-          &lt;h1 id=&quot;装箱&quot;&gt;&lt;a href=&quot;#装箱&quot; class=&quot;headerlink&quot; title=&quot;装箱&quot;&gt;&lt;/a&gt;装箱&lt;/h1&gt;&lt;p&gt;给定 N（n ≤ 10^5）个物品的重量 L，背包的容量M，同时要求每个背包最多装两个物品。求至少要多少个背包才能装下所有的物品。 
+          &lt;h1&gt;装箱&lt;/h1&gt;
+&lt;p&gt;给定 N（n ≤ 10^5）个物品的重量 L，背包的容量M，同时要求每个背包最多装两个物品。求至少要多少个背包才能装下所有的物品。&lt;/p&gt;
+&lt;p&gt;输入(Google
         
       
     
@@ -77,8 +81,13 @@
       
         
         
-          &lt;h1 id=&quot;李白打酒&quot;&gt;&lt;a href=&quot;#李白打酒&quot; class=&quot;headerlink&quot; title=&quot;李白打酒&quot;&gt;&lt;/a&gt;李白打酒&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;   
+          &lt;h1&gt;李白打酒&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;
+一天，他提着酒壶，从家里出来，酒壶中有酒2斗。他边走边唱：&lt;br&gt;
+无事街上走，提壶去打酒。&lt;br&gt;
+逢店加一倍，遇花喝一斗。&lt;br&gt;
+这一路上，他一共遇到店5次，遇到
         
       
     
@@ -102,8 +111,11 @@
       
         
         
-          &lt;h1 id=&quot;特殊回文数&quot;&gt;&lt;a href=&quot;#特殊回文数&quot; class=&quot;headerlink&quot; title=&quot;特殊回文数&quot;&gt;&lt;/a&gt;特殊回文数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
+          &lt;h1&gt;特殊回文数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot; data-original=&quot;../page_img/huiwen.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div
         
       
     
@@ -127,7 +139,10 @@
       
         
         
-          &lt;h1 id=&quot;快乐数&quot;&gt;&lt;a href=&quot;#快乐数&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;快乐数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编写一个算法来判断一个数是不是“快乐数”。&lt;br&gt;
+一个“快乐数”定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是无限循环但始终变不到 1。如果可以变为
         
       
     
@@ -151,8 +166,11 @@
       
         
         
-          &lt;h1 id=&quot;蛇形填数&quot;&gt;&lt;a href=&quot;#蛇形填数&quot; class=&quot;headerlink&quot; title=&quot;蛇形填数&quot;&gt;&lt;/a&gt;蛇形填数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
+          &lt;h1&gt;蛇形填数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot; data-original=&quot;../page_img/shexing.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div
         
       
     
@@ -176,7 +194,10 @@
       
         
         
-          &lt;h1 id=&quot;基于我学院机房搭建的Samba服务器傻瓜式教程&quot;&gt;&lt;a href=&quot;#基于我学院机房搭建的Samba服务器傻瓜式教程&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;基于我学院机房搭建的Samba服务器傻瓜式教程&lt;/h1&gt;
+&lt;p&gt;感谢班上学习委员大佬的笔记&lt;/p&gt;
+&lt;h1&gt;一、挂载光盘&lt;/h1&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
         
       
     
@@ -200,7 +221,15 @@
       
         
         
-          &lt;h1 id=&quot;遇到问题是的环境：&quot;&gt;&lt;a href=&quot;#遇到问题是的环境：&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;遇到问题是的环境：&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;jdk1.8&lt;/li&gt;
+&lt;li&gt;远程连接服务器mysql&lt;/li&gt;
+&lt;li&gt;macOS High Sierra&lt;/li&gt;
+&lt;li&gt;idea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;解决：&lt;/h1&gt;
+&lt;p&gt;前往MySQL官网下载&lt;a
         
       
     
@@ -224,7 +253,8 @@
       
         
         
-          &lt;h1 id=&quot;问题原因&quot;&gt;&lt;a href=&quot;#问题原因&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;问题原因&lt;/h1&gt;
+&lt;p&gt;开始以为是自己吧服务器重装了一次的原因，但最后发现是&lt;code&gt;不蒜子&lt;/code&gt;的在今年（2018）10月初更新域名了，导致&lt;code&gt;next&lt;/code&gt;自带的地址404，以下是来自&lt;a
         
       
     
@@ -248,7 +278,8 @@
       
         
         
-          &lt;h1 id=&quot;为什么改用hexo了？而不是WordPress-wp&quot;&gt;&lt;a href=&quot;#为什么改用hexo了？而不是WordPress-wp&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;为什么改用hexo了？而不是WordPress(wp)&lt;/h1&gt;
+&lt;h2
         
       
     
@@ -273,9 +304,7 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;菜鸟教程&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1
+&lt;p&gt;参考文章：&lt;a href=&quot;https://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot;
         
       
     
@@ -299,7 +328,8 @@
       
         
         
-          &lt;h2 id=&quot;解决方案1&quot;&gt;&lt;a href=&quot;#解决方案1&quot; class=&quot;headerlink&quot; title=&quot;解决方案1&quot;&gt;&lt;/a&gt;解决方案1&lt;/h2&gt;&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot;
+          &lt;h2 id=&quot;解决方案1&quot;&gt;解决方案1&lt;/h2&gt;
+&lt;p&gt;在&lt;a href=&quot;https://www.examcoo.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;考试酷&lt;/a&gt;提交作业时发现不能直接粘贴答案进去
         
       
     
@@ -324,7 +354,9 @@
         
         
           &lt;p&gt;学校的端口号为95，是非安全端口，这里我来说一下这样用Chrome或者Firefox进入非安全端口&lt;/p&gt;
-&lt;h1 id=&quot;Firefox-Windows和Linux、macOS通用&quot;&gt;&lt;a href=&quot;#Firefox-Windows和Linux、macOS通用&quot;
+&lt;h1&gt;Firefox:(Windows和Linux、macOS通用)&lt;/h1&gt;
+&lt;p&gt;(1) about:config进入参数设置界面&lt;br&gt;
+(2)
         
       
     
@@ -348,7 +380,11 @@
       
         
         
-          &lt;h1 id=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;a href=&quot;#今天在学习Django时遇到一个问题&quot; class=&quot;headerlink&quot; title=&quot;今天在学习Django时遇到一个问题&quot;&gt;&lt;/a&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;&lt;p&gt;#
+          &lt;h1&gt;今天在学习Django时遇到一个问题&lt;/h1&gt;
+&lt;p&gt;# 首先安装Mysql驱动&lt;br&gt;
+&lt;code&gt;brew install mysql-connector-c&lt;/code&gt;&lt;br&gt;
+# 第一条到没什么问题，但是第二条命令。。。&lt;br&gt;
+&lt;code&gt;sudo pip
         
       
     
@@ -396,7 +432,8 @@
       
         
         
-          &lt;h1 id=&quot;本篇文章以我所用教务系统为例&quot;&gt;&lt;a href=&quot;#本篇文章以我所用教务系统为例&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;本篇文章以我所用教务系统为例&lt;/h1&gt;
+&lt;p&gt;由于学校把课表关闭了，所以我现在先爬取的成绩查询 本项目的完整代码地址：&lt;a href=&quot;https://github.com/idoctype/zhengfang&quot; target=&quot;_blank&quot;
         
       
     
@@ -420,7 +457,9 @@
       
         
         
-          &lt;h1 id=&quot;Eclipse下载及汉化&quot;&gt;&lt;a href=&quot;#Eclipse下载及汉化&quot; class=&quot;headerlink&quot; title=&quot;Eclipse下载及汉化&quot;&gt;&lt;/a&gt;Eclipse下载及汉化&lt;/h1&gt;&lt;h2 id=&quot;下载Eclipse&quot;&gt;&lt;a
+          &lt;h1&gt;Eclipse下载及汉化&lt;/h1&gt;
+&lt;h2 id=&quot;下载eclipse&quot;&gt;下载Eclipse&lt;/h2&gt;
+&lt;p&gt;官网的下载地址&lt;a href=&quot;https://www.eclipse.org/downloads/&quot; target=&quot;_blank&quot;
         
       
     
@@ -444,7 +483,9 @@
       
         
         
-          &lt;h1 id=&quot;JAVA环境安装&quot;&gt;&lt;a href=&quot;#JAVA环境安装&quot; class=&quot;headerlink&quot; title=&quot;JAVA环境安装&quot;&gt;&lt;/a&gt;JAVA环境安装&lt;/h1&gt;&lt;h2 id=&quot;下载JDK包&quot;&gt;&lt;a href=&quot;#下载JDK包&quot;
+          &lt;h1&gt;JAVA环境安装&lt;/h1&gt;
+&lt;h2 id=&quot;下载jdk包&quot;&gt;下载JDK包&lt;/h2&gt;
+&lt;p&gt;&lt;a
         
       
     
@@ -468,7 +509,9 @@
       
         
         
-          &lt;h1 id=&quot;QQ，微信如何自动抢红包&quot;&gt;&lt;a href=&quot;#QQ，微信如何自动抢红包&quot; class=&quot;headerlink&quot; title=&quot;QQ，微信如何自动抢红包&quot;&gt;&lt;/a&gt;QQ，微信如何自动抢红包&lt;/h1&gt;&lt;h2 id=&quot;Xposed&quot;&gt;&lt;a
+          &lt;h1&gt;QQ，微信如何自动抢红包&lt;/h1&gt;
+&lt;h2 id=&quot;xposed&quot;&gt;Xposed&lt;/h2&gt;
+&lt;p&gt;Xposed框架是一款可以在不修改APK的情况下影响程序运行(修改系统)的框架服务，
         
       
     
@@ -493,9 +536,10 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;先来让我们看看这个，然后写出它的代码和注释  &lt;/p&gt;
+&lt;p&gt;先来让我们看看这个，然后写出它的代码和注释&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;html部分：&lt;br&gt;&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
+&lt;p&gt;html部分：&lt;/p&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
         
       
     
