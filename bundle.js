@@ -1264,6 +1264,121 @@ $(document).ready(function() {
   $(document).trigger('bootstrap:after');
 });
 ;
+/* global instantsearch, CONFIG */
+
+$(document).ready(function() {
+  var algoliaSettings = CONFIG.algolia;
+  var isAlgoliaSettingsValid = algoliaSettings.applicationID
+                            && algoliaSettings.apiKey
+                            && algoliaSettings.indexName;
+
+  if (!isAlgoliaSettingsValid) {
+    window.console.error('Algolia Settings are invalid.\n'+algoliaSettings.applicationID+'\n'+algoliaSettings.apiKey+'\n'+algoliaSettings.indexName);
+    return;
+  }
+
+  var search = instantsearch({
+    appId         : algoliaSettings.applicationID,
+    apiKey        : algoliaSettings.apiKey,
+    indexName     : algoliaSettings.indexName,
+    searchFunction: function(helper) {
+      var searchInput = $('#algolia-search-input').find('input');
+
+      if (searchInput.val()) {
+        helper.search();
+      }
+    }
+  });
+
+  // Registering Widgets
+  [
+    instantsearch.widgets.searchBox({
+      container  : '#algolia-search-input',
+      placeholder: algoliaSettings.labels.input_placeholder
+    }),
+
+    instantsearch.widgets.hits({
+      container  : '#algolia-hits',
+      hitsPerPage: algoliaSettings.hits.per_page || 10,
+      templates  : {
+        item: function(data) {
+          var link = data.permalink ? data.permalink : CONFIG.root + data.path;
+          return (
+            '<a href="' + link + '" class="algolia-hit-item-link">'
+          + data._highlightResult.title.value
+          + '</a>'
+          );
+        },
+        empty: function(data) {
+          return (
+            '<div id="algolia-hits-empty">'
+          + algoliaSettings.labels.hits_empty.replace(/\$\{query}/, data.query)
+          + '</div>'
+          );
+        }
+      },
+      cssClasses: {
+        item: 'algolia-hit-item'
+      }
+    }),
+
+    instantsearch.widgets.stats({
+      container: '#algolia-stats',
+      templates: {
+        body: function(data) {
+          var stats = algoliaSettings.labels.hits_stats
+            .replace(/\$\{hits}/, data.nbHits)
+            .replace(/\$\{time}/, data.processingTimeMS);
+          return (
+            stats
+            + '<span class="algolia-powered">'
+            + '  <img src="' + CONFIG.root + 'images/algolia_logo.svg" alt="Algolia" />'
+            + '</span>'
+            + '<hr />'
+          );
+        }
+      }
+    }),
+
+    instantsearch.widgets.pagination({
+      container    : '#algolia-pagination',
+      scrollTo     : false,
+      showFirstLast: false,
+      labels       : {
+        first   : '<i class="fa fa-angle-double-left"></i>',
+        last    : '<i class="fa fa-angle-double-right"></i>',
+        previous: '<i class="fa fa-angle-left"></i>',
+        next    : '<i class="fa fa-angle-right"></i>'
+      },
+      cssClasses: {
+        root    : 'pagination',
+        item    : 'pagination-item',
+        link    : 'page-number',
+        active  : 'current',
+        disabled: 'disabled-item'
+      }
+    })
+  ].forEach(search.addWidget, search);
+
+  search.start();
+
+  $('.popup-trigger').on('click', function(e) {
+    e.stopPropagation();
+    $('body')
+      .append('<div class="search-popup-overlay algolia-pop-overlay"></div>')
+      .css('overflow', 'hidden');
+    $('.popup').toggle();
+    $('#algolia-search-input').find('input').focus();
+  });
+
+  $('.popup-btn-close').click(function() {
+    $('.popup').hide();
+    $('.algolia-pop-overlay').remove();
+    $('body').css('overflow', '');
+  });
+
+});
+;
 !function(e,t,a){function n(){c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"),o(),r()}function r(){for(var e=0;e<d.length;e++)d[e].alpha<=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText="left:"+d[e].x+"px;top:"+d[e].y+"px;opacity:"+d[e].alpha+";transform:scale("+d[e].scale+","+d[e].scale+") rotate(45deg);background:"+d[e].color+";z-index:99999");requestAnimationFrame(r)}function o(){var t="function"==typeof e.onclick&&e.onclick;e.onclick=function(e){t&&t(),i(e)}}function i(e){var a=t.createElement("div");a.className="heart",d.push({el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()}),t.body.appendChild(a)}function c(e){var a=t.createElement("style");a.type="text/css";try{a.appendChild(t.createTextNode(e))}catch(t){a.styleSheet.cssText=e}t.getElementsByTagName("head")[0].appendChild(a)}function s(){return"rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")"}var d=[];e.requestAnimationFrame=function(){return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e){setTimeout(e,1e3/60)}}(),n()}(window,document);
 ;
  window.onload = function () {

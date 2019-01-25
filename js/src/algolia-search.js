@@ -7,7 +7,7 @@ $(document).ready(function() {
                             && algoliaSettings.indexName;
 
   if (!isAlgoliaSettingsValid) {
-    window.console.error('Algolia Settings are invalid.');
+    window.console.error('Algolia Settings are invalid.\n'+algoliaSettings.applicationID+'\n'+algoliaSettings.apiKey+'\n'+algoliaSettings.indexName);
     return;
   }
 
