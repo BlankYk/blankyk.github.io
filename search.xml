@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo-next Algolia的问题]]></title>
+    <url>%2F20190126q01%2F</url>
+    <content type="text"><![CDATA[遇到问题的环境hexo版本：3.8.0Next版本：6.4.1Algolia版本：1.3.1 Algolia Settings are invalid(Aloglia设置无效)问题分析网上大概的搜一下，没有相关的信息，然后就只有自己看源码了，找到next/source/aloglia-search.js搜索Algolia Settings are invalid会发现是一个和applicationID,apiKey,indexName有关的错误那么我就把这三个值都输出看看，修改输出错误信息为：1window.console.error('Algolia Settings are invalid.\n'+algoliaSettings.applicationID+'\n'+algoliaSettings.apiKey+'\n'+algoliaSettings.indexName); 然后启动服务器测试，发现algoliaSettings.apiKey的值那行为空，检查了配置是按照官方的配置来的 问题解决最后找来找去，是因为官方的那个站点设置没有更新，我吧上面的apiKey也当成了Search-Only API key，而那个就是apiKey正确的设置应为12345algolia: applicationID: 'applicationID' apiKey: 'apiKey' indexName: 'indexName' chunkSize: 5000 这里我看到有些文章说要加引号，有些又没说，反正我没加 instantsearch is not defined问题分析这个在网上查了一下，然后发现其实是自己傻*了，没装依赖，在algolia_search上面其实写着的Dependencies,所以到theme-next-algolia-instant-search按照上面操作就完事了 问题解决1cd themes/next&amp;&amp;git clone https://github.com/theme-next/theme-next-algolia-instant-search source/lib/algolia-instant-search 优化这里每次写文章都要进行一次hexo algolia就很麻烦，所以我修改了zsh的配置,如果已经有的话修改一下就好，没有的话，在最后一行添加12alias hexotest='hexo algolia &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo s'alias hexopush='hexo algolia &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d' hexotest是用于测试的hexopush是用于部署的]]></content>
+      <categories>
+        <category>解决问题</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[冰雹数]]></title>
     <url>%2F20190125laniqao01%2F</url>
     <content type="text"><![CDATA[蓝桥杯任意给定一个正整数N,如果是偶数，执行： N / 2如果是奇数，执行： N * 3 + 1生成的新的数字再执行同样的动作，循环往复。通过观察发现，这个数字会一会儿上升到很高，一会儿又降落下来。就这样起起落落的，但最终必会落到“1”这有点像小冰雹粒子在冰雹云中翻滚增长的样子。比如N=99,28,14,7,22,11,34,17,52,26,13,40,20,10,5,16,8,4,2,1可以看到，N=9的时候，这个“小冰雹”最高冲到了52这个高度。输入格式：一个正整数N（N&lt;1000000）输出格式：一个正整数，表示不大于N的数字，经过冰雹数变换过程中，最高冲到了多少。 例如，输入：110 程序应该输出：152 再例如，输入：1100 程序应该输出：19232 1234567891011121314151617181920212223242526272829303132import java.util.Scanner;public class Binbao &#123; public static void main(String[] args) &#123; Scanner input = new Scanner(System.in);//存储输入的值 int N = input.nextInt(); int max = 1;//初始化最大值为1 for (int i = 1; i &lt;= N; i++) &#123;//循环N次 max = Math.max(max, tiao(i));//用max方法得出最大值 &#125; System.out.println(max); &#125; public static int tiao(int n) &#123; int max = 1; while (n != 1) &#123; max = Math.max(n, max); if (n % 2 == 0) &#123; n = n / 2; &#125; else &#123; n = n * 3 + 1; &#125; &#125; return max;//返回最大值 &#125;&#125;]]></content>
