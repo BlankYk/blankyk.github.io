@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[未名湖边的烦恼]]></title>
+    <url>%2F20190126lanqiao03%2F</url>
+    <content type="text"><![CDATA[蓝桥杯官方练习题 问题描述 每年冬天，北大未名湖上都是滑冰的好地方。北大体育组准备了许多冰鞋，可是人太多了，每天下午收工后，常常一双冰鞋都不剩。 每天早上，租鞋窗口都会排起长龙，假设有还鞋的m个，有需要租鞋的n个。现在的问题是，这些人有多少种排法，可以避免出现体育组没有冰鞋可租的尴尬场面。（两个同样需求的人（比如都是租鞋或都是还鞋）交换位置是同一种排法） 输入格式 两个整数，表示m和n 输出格式 一个整数，表示队伍的排法的方案数。 样例输入13 2 样例输出15 数据规模和约定 m,n∈［0,18］ 问题分析 思路设还鞋的为a，租鞋的为b则，实例的排法情况为12345aaabbaababaabbaabaabababa 首先,m&gt;n,如果m &lt; n则一定会出现尴尬,n&gt;0,当n为0是会只有1种排法，全是a123456789101112131415161718192021222324import java.util.Scanner;public class WeiMingHu &#123; public static void main(String[] args) &#123; Scanner sc = new Scanner(System.in); while (sc.hasNext()) &#123; int a = sc.nextInt(); int b = sc.nextInt(); System.out.println(calcute(a, b)); &#125; &#125; private static int fun(int a, int b) &#123; if (a &lt; b) &#123; return 0; &#125; if (b == 0) &#123; return 1; &#125; else &#123; return fun(a - 1, b) + fun(a, b - 1);//fun(m-1,n)意思是还鞋子的一个人站在最前面，之后剩下的哪些人再接着排序，fun(m,n-1) 意思是借鞋子的人站在最后面，剩下的再接着排序。 &#125; &#125;&#125;]]></content>
+      <categories>
+        <category>蓝桥杯训练</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[新年：结交朋友]]></title>
     <url>%2F20190126lanqiao2%2F</url>
     <content type="text"><![CDATA[问 有三个朋友住在Lineland 的直线牛。第一个朋友住在点x 1，第二个朋友住在点x 2，第三个朋友住在点x 3。他们计划一起庆祝新年，所以他们需要在某一点见面。为了在某​​个时刻见面并庆祝新年，他们必须旅行的最小总距离是多少？保证最佳答案始终是整数。输入输入的第一行包含三个不同的整数X 1，X 2和X 3（1≤ X 1， X 2， X 3 ≤100） -第一，第二和第三朋友的房子的坐标。输出打印一个整数 - 朋友们为了聚在一起旅行所需的最小总距离。实例输出123456789input:7 1 4out:6===========input:30 20 10out:20 注意在第一个样本中，朋友应该在第4点见面。因此，第一个朋友必须行进3的距离（从点7到点4），第二个朋友也必须行进3的距离（从点1到点4），而第三个朋友应该不要去任何地方，因为他住在第4点。 123456789101112131415161718import java.util.Arrays;import java.util.Scanner;public class NewYear &#123; public static void main(String[] args) &#123; // TODO 自动生成的方法存根 Scanner sc = new Scanner(System.in); int num[] = new int[3]; for(int i=0;i&lt;3;i++) &#123; num[i] = sc.nextInt(); &#125; Arrays.sort(num); int point = (num[2]-num[1])+(num[1]-num[0]); System.out.println(point); &#125;&#125; 噗~翻译把在某点相聚翻译成了时刻，还以为很难]]></content>
