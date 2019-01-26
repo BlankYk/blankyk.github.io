@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[新年：结交朋友]]></title>
+    <url>%2F20190126lanqiao2%2F</url>
+    <content type="text"><![CDATA[问 有三个朋友住在Lineland 的直线牛。第一个朋友住在点x 1，第二个朋友住在点x 2，第三个朋友住在点x 3。他们计划一起庆祝新年，所以他们需要在某一点见面。为了在某​​个时刻见面并庆祝新年，他们必须旅行的最小总距离是多少？保证最佳答案始终是整数。输入输入的第一行包含三个不同的整数X 1，X 2和X 3（1≤ X 1， X 2， X 3 ≤100） -第一，第二和第三朋友的房子的坐标。输出打印一个整数 - 朋友们为了聚在一起旅行所需的最小总距离。实例输出123456789input:7 1 4out:6===========input:30 20 10out:20 注意在第一个样本中，朋友应该在第4点见面。因此，第一个朋友必须行进3的距离（从点7到点4），第二个朋友也必须行进3的距离（从点1到点4），而第三个朋友应该不要去任何地方，因为他住在第4点。 123456789101112131415161718import java.util.Arrays;import java.util.Scanner;public class NewYear &#123; public static void main(String[] args) &#123; // TODO 自动生成的方法存根 Scanner sc = new Scanner(System.in); int num[] = new int[3]; for(int i=0;i&lt;3;i++) &#123; num[i] = sc.nextInt(); &#125; Arrays.sort(num); int point = (num[2]-num[1])+(num[1]-num[0]); System.out.println(point); &#125;&#125; 噗~翻译把在某点相聚翻译成了时刻，还以为很难]]></content>
+      <categories>
+        <category>蓝桥杯训练</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[三点顺序]]></title>
     <url>%2F20190126lanqiao01%2F</url>
     <content type="text"><![CDATA[问 现在给你不共线的三个点A,B,C的坐标，它们一定能组成一个三角形，现在让你判断A，B，C是顺时针给出的还是逆时针给出的？如：图1：顺时针给出图2：逆时针给出 输出描述：每行是一组测试数据，有6个整数x1,y1,x2,y2,x3,y3分别表示A,B,C三个点的横纵坐标。（坐标值都在0到10000之间)输入0 0 0 0 0 0表示输入结束测试数据不超过10000组 输出描述如果这三个点是顺时针给出的，请输出1，逆时针给出则输出0 样例输入1230 0 1 1 1 30 1 1 0 0 00 0 0 0 0 0 样例输出1201 解利用矢量叉积判断是逆时针还是顺时针。设A(x1,y1),B(x2,y2),C(x3,y3),则三角形两边的矢量分别是：AB=(x2-x1,y2-y1), AC=(x3-x1,y3-y1)则AB和AC的叉积为：(22的行列式)|x2-x1, y2-y1||x3-x1, y3-y1|值为：`(x2-x1)(y3-y1) - (y2-y1)*(x3-x1)`利用右手法则进行判断：如果ABxAC&gt;0，则三角形ABC是逆时针的；如果ABxAC&lt;0，则三角形ABC是顺时针的；如果ABxAC=0，则说明三点共线。1234567891011121314151617181920212223242526272829import java.util.Scanner;public class Sjxsx &#123; public static void main(String[] args) &#123; // TODO 自动生成的方法存根 Scanner sc = new Scanner(System.in); int x1, y1, x2, y2, x3, y3; while (sc.hasNext()) &#123; x1 = sc.nextInt(); y1 = sc.nextInt(); x2 = sc.nextInt(); y2 = sc.nextInt(); x3 = sc.nextInt(); y3 = sc.nextInt(); if (x1 == 0 &amp;&amp; y1 == 0 &amp;&amp; x2 == 0 &amp;&amp; y2 == 0 &amp;&amp; x3 == 0 &amp;&amp; y3 == 0) &#123; return; &#125; int AB = (x2 - x1) * (y3 - y1); int AC = (y2 - y1) * (x3 - x1); if (AB * AC &gt; 0) &#123; System.out.println("0"); &#125;else&#123; System.out.println("1"); &#125; &#125; &#125;&#125;]]></content>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2019-01-26T12:22:05.000Z</updated>
+  <updated>2019-01-26T13:46:45.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新年：结交朋友</title>
+    <link href="https://css0209.cn/20190126lanqiao2/"/>
+    <id>https://css0209.cn/20190126lanqiao2/</id>
+    <published>2019-01-26T13:18:45.000Z</published>
+    <updated>2019-01-26T13:46:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;问&quot;&gt;&lt;a href=&quot;#问&quot; class=&quot;headerlink&quot; title=&quot;问&quot;&gt;&lt;/a&gt;问&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;有三个朋友住在Lineland 的直线牛。第一个朋友住在点x 1，第二个朋友住在点x 2，第三个朋友住在点x
+        
+      
+    
+    </summary>
+    
+      <category term="蓝桥杯训练" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF%E8%AE%AD%E7%BB%83/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>三点顺序</title>
@@ -475,30 +500,6 @@
     </summary>
     
       <category term="Linux" scheme="https://css0209.cn/categories/Linux/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Python3 正方爬虫</title>
-    <link href="https://css0209.cn/20180811103/"/>
-    <id>https://css0209.cn/20180811103/</id>
-    <published>2018-08-11T11:52:13.000Z</published>
-    <updated>2019-01-25T13:51:01.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;本篇文章以我所用教务系统为例&quot;&gt;&lt;a href=&quot;#本篇文章以我所用教务系统为例&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Python" scheme="https://css0209.cn/categories/Python/"/>
     
     
   </entry>
