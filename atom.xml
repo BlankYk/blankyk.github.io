@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2019-02-01T03:56:19.000Z</updated>
+  <updated>2019-01-30T05:24:23.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>VuePress搭建体验</title>
-    <link href="https://css0209.cn/20190201VuePress/"/>
-    <id>https://css0209.cn/20190201VuePress/</id>
-    <published>2019-02-01T01:00:42.000Z</published>
-    <updated>2019-02-01T03:56:19.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h1&gt;&lt;p&gt;简单的说一下，VuePress是尤大神在2018年4月新发布的以Vue驱动静态网站生成器，具体的，就自己看&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="Vue,web" scheme="https://css0209.cn/categories/Vue-web/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>因式分解</title>
@@ -501,6 +477,30 @@
     </summary>
     
       <category term="解决问题" scheme="https://css0209.cn/categories/%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>博客船新改版 hexo+NexT</title>
+    <link href="https://css0209.cn/20180919hexo-next/"/>
+    <id>https://css0209.cn/20180919hexo-next/</id>
+    <published>2018-09-18T16:02:19.000Z</published>
+    <updated>2019-01-25T19:27:18.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;为什么改用hexo了？而不是WordPress-wp&quot;&gt;&lt;a href=&quot;#为什么改用hexo了？而不是WordPress-wp&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://css0209.cn/categories/web/"/>
     
     
   </entry>
