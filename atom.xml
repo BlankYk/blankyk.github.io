@@ -29,7 +29,10 @@
       
         
         
-          &lt;h1 id=&quot;突发奇想&quot;&gt;&lt;a href=&quot;#突发奇想&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;突发奇想&lt;/h1&gt;
+&lt;p&gt;那天，老师在上面讲一个HTML的表格，然后过于无聊的我，突发奇想，能不能用js来渲染繁琐复杂的表格，减少HTML的代码了量。&lt;/p&gt;
+&lt;h1&gt;HTML&lt;/h1&gt;
+&lt;div
         
       
     
@@ -53,7 +56,11 @@
       
         
         
-          &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;刚刚我妈一惊一乍叫我，说电脑坏了，然后我看了下，QQ游戏客户端页面进不去，然后目测网页有问题，打开浏览器，试下百度，进不去，闪过一个DNS错误。&lt;br&gt;
+其实这种DNS错误还比较常见，所以就顺手水一篇&lt;/p&gt;
+&lt;h1&gt;解决过程&lt;/h1&gt;
+&lt;p&gt;系统是
         
       
     
@@ -79,7 +86,12 @@
       
         
         
-          &lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h1&gt;&lt;p&gt; 
+          &lt;h1&gt;问题描述&lt;/h1&gt;
+&lt;p&gt;设计算法，用户输入合数，程序输出若个素数的乘积。例如，输入6，输出2*3。输入20，输出2*2*5。&lt;br&gt;
+样例&lt;br&gt;
+　　与上面的样例输入对应的输出。&lt;br&gt;
+　　例：&lt;br&gt;
+&lt;img
         
       
     
@@ -103,7 +115,12 @@
       
         
         
-          &lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;问题描述&lt;/h1&gt;
+&lt;p&gt;九宫格。输入1-9这9个数字的一种任意排序，构成3*3二维数组。如果每行、每列以及对角线之和都相等，打印1。否则打印0。&lt;br&gt;
+样例输出&lt;br&gt;
+与上面的样例输入对应的输出。&lt;br&gt;
+例：&lt;br&gt;
+&lt;img
         
       
     
@@ -153,7 +170,14 @@
         
         
           &lt;blockquote&gt;
-&lt;p&gt;仔细寻找，会发现：在下面的8x8的方阵中，隐藏着字母序列：“LANQIAO”。&lt;br&gt;SLANQIAO&lt;br&gt;ZOEXCCGB&lt;br&gt;MOAYWKHI&lt;br&gt;BCCIPLJQ&lt;br&gt;SLANQIAO&lt;br&gt;RSFWFNYA&lt;br&gt;XIFZVWAL&lt;
+&lt;p&gt;仔细寻找，会发现：在下面的8x8的方阵中，隐藏着字母序列：“LANQIAO”。&lt;br&gt;
+SLANQIAO&lt;br&gt;
+ZOEXCCGB&lt;br&gt;
+MOAYWKHI&lt;br&gt;
+BCCIPLJQ&lt;br&gt;
+SLANQIAO&lt;br&gt;
+RSFWFNYA&lt;br&gt;
+XI
         
       
     
@@ -178,7 +202,9 @@
         
         
           &lt;p&gt;蓝桥杯官方练习题&lt;/p&gt;
-&lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;
+&lt;h1&gt;问题描述&lt;/h1&gt;
+&lt;p&gt;每年冬天，北大未名湖上都是滑冰的好地方。北大体育组准备了许多冰鞋，可是人太多了，每天下午收工后，常常一双冰鞋都不剩。&lt;br&gt;
+　　每天早上，租鞋窗口都会排起长龙，假设有还鞋的m个，有需要租鞋的n个。现在的问题是，这
         
       
     
@@ -202,7 +228,8 @@
       
         
         
-          &lt;h1 id=&quot;问&quot;&gt;&lt;a href=&quot;#问&quot; class=&quot;headerlink&quot; title=&quot;问&quot;&gt;&lt;/a&gt;问&lt;/h1&gt;&lt;blockquote&gt;
+          &lt;h1&gt;问&lt;/h1&gt;
+&lt;blockquote&gt;
 &lt;p&gt;有三个朋友住在Lineland 的直线牛。第一个朋友住在点x 1，第二个朋友住在点x 2，第三个朋友住在点x
         
       
@@ -227,7 +254,13 @@
       
         
         
-          &lt;h1 id=&quot;问&quot;&gt;&lt;a href=&quot;#问&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;问&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;现在给你不共线的三个点A,B,C的坐标，它们一定能组成一个三角形，现在让你判断A，B，C是顺时针给出的还是逆时针给出的？&lt;br&gt;
+如：&lt;br&gt;
+图1：顺时针给出&lt;br&gt;
+图2：逆时针给出&lt;br&gt;
+&lt;img
         
       
     
@@ -251,7 +284,12 @@
       
         
         
-          &lt;h1 id=&quot;遇到问题的环境&quot;&gt;&lt;a href=&quot;#遇到问题的环境&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;遇到问题的环境&lt;/h1&gt;
+&lt;p&gt;hexo版本：3.8.0&lt;br&gt;
+Next版本：6.4.1&lt;br&gt;
+Algolia版本：1.3.1&lt;/p&gt;
+&lt;h1&gt;Algolia Settings are invalid(Aloglia设置无效)&lt;/h1&gt;
+&lt;h2
         
       
     
@@ -300,8 +338,11 @@
       
         
         
-          &lt;h1 id=&quot;错误原因&quot;&gt;&lt;a href=&quot;#错误原因&quot; class=&quot;headerlink&quot; title=&quot;错误原因&quot;&gt;&lt;/a&gt;错误原因&lt;/h1&gt;&lt;p&gt;很简单，这是由于hexo-toc插件导致的。也许，其他的主题需要这个插件，但是next不需要&lt;/p&gt;
-&lt;h1
+          &lt;h1&gt;错误原因&lt;/h1&gt;
+&lt;p&gt;很简单，这是由于hexo-toc插件导致的。也许，其他的主题需要这个插件，但是next不需要&lt;/p&gt;
+&lt;h1&gt;解决方案&lt;/h1&gt;
+&lt;p&gt;卸载掉插件即可&lt;/p&gt;
+&lt;div
         
       
     
@@ -325,7 +366,9 @@
       
         
         
-          &lt;h1 id=&quot;刽子手&quot;&gt;&lt;a href=&quot;#刽子手&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;刽子手&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;刽子手游戏其实是一款猜单词游戏。游戏规则是这样的：计算机想一个单词让你猜，你每次可以猜一个字母。如果单词里有那个字母，所有该字母会显示出来；如果没有那个字母，则计算机会在一幅“刽子手”画上填一笔。这幅画一共需要7笔就能完成
         
       
     
@@ -349,7 +392,9 @@
       
         
         
-          &lt;h1 id=&quot;装箱&quot;&gt;&lt;a href=&quot;#装箱&quot; class=&quot;headerlink&quot; title=&quot;装箱&quot;&gt;&lt;/a&gt;装箱&lt;/h1&gt;&lt;p&gt;给定 N（n ≤ 10^5）个物品的重量 L，背包的容量M，同时要求每个背包最多装两个物品。求至少要多少个背包才能装下所有的物品。 
+          &lt;h1&gt;装箱&lt;/h1&gt;
+&lt;p&gt;给定 N（n ≤ 10^5）个物品的重量 L，背包的容量M，同时要求每个背包最多装两个物品。求至少要多少个背包才能装下所有的物品。&lt;/p&gt;
+&lt;p&gt;输入(Google
         
       
     
@@ -373,8 +418,13 @@
       
         
         
-          &lt;h1 id=&quot;李白打酒&quot;&gt;&lt;a href=&quot;#李白打酒&quot; class=&quot;headerlink&quot; title=&quot;李白打酒&quot;&gt;&lt;/a&gt;李白打酒&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;   
+          &lt;h1&gt;李白打酒&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;
+一天，他提着酒壶，从家里出来，酒壶中有酒2斗。他边走边唱：&lt;br&gt;
+无事街上走，提壶去打酒。&lt;br&gt;
+逢店加一倍，遇花喝一斗。&lt;br&gt;
+这一路上，他一共遇到店5次，遇到
         
       
     
@@ -398,8 +448,11 @@
       
         
         
-          &lt;h1 id=&quot;特殊回文数&quot;&gt;&lt;a href=&quot;#特殊回文数&quot; class=&quot;headerlink&quot; title=&quot;特殊回文数&quot;&gt;&lt;/a&gt;特殊回文数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
+          &lt;h1&gt;特殊回文数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot; data-original=&quot;../page_img/huiwen.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div
         
       
     
@@ -423,7 +476,10 @@
       
         
         
-          &lt;h1 id=&quot;快乐数&quot;&gt;&lt;a href=&quot;#快乐数&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;快乐数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;编写一个算法来判断一个数是不是“快乐数”。&lt;br&gt;
+一个“快乐数”定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，也可能是无限循环但始终变不到 1。如果可以变为
         
       
     
@@ -447,8 +503,11 @@
       
         
         
-          &lt;h1 id=&quot;蛇形填数&quot;&gt;&lt;a href=&quot;#蛇形填数&quot; class=&quot;headerlink&quot; title=&quot;蛇形填数&quot;&gt;&lt;/a&gt;蛇形填数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
+          &lt;h1&gt;蛇形填数&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot; data-original=&quot;../page_img/shexing.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div
         
       
     
@@ -472,7 +531,10 @@
       
         
         
-          &lt;h1 id=&quot;基于我学院机房搭建的Samba服务器傻瓜式教程&quot;&gt;&lt;a href=&quot;#基于我学院机房搭建的Samba服务器傻瓜式教程&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;基于我学院机房搭建的Samba服务器傻瓜式教程&lt;/h1&gt;
+&lt;p&gt;感谢班上学习委员大佬的笔记&lt;/p&gt;
+&lt;h1&gt;一、挂载光盘&lt;/h1&gt;
+&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
         
       
     
@@ -496,7 +558,15 @@
       
         
         
-          &lt;h1 id=&quot;遇到问题是的环境：&quot;&gt;&lt;a href=&quot;#遇到问题是的环境：&quot; class=&quot;headerlink&quot;
+          &lt;h1&gt;遇到问题是的环境：&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;jdk1.8&lt;/li&gt;
+&lt;li&gt;远程连接服务器mysql&lt;/li&gt;
+&lt;li&gt;macOS High Sierra&lt;/li&gt;
+&lt;li&gt;idea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;解决：&lt;/h1&gt;
+&lt;p&gt;前往MySQL官网下载&lt;a
         
       
     
