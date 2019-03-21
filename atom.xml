@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2019-03-18T11:12:57.000Z</updated>
+  <updated>2019-03-21T02:47:00.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>最大公约数方法</title>
+    <link href="https://css0209.cn/20190321gcd/"/>
+    <id>https://css0209.cn/20190321gcd/</id>
+    <published>2019-03-21T02:43:44.000Z</published>
+    <updated>2019-03-21T02:47:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;code&quot;&gt;&lt;a href=&quot;#code&quot; class=&quot;headerlink&quot; title=&quot;code&quot;&gt;&lt;/a&gt;code&lt;/h1&gt;&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="蓝桥杯,总结" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF-%E6%80%BB%E7%BB%93/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Java 全排列</title>
     <link href="https://css0209.cn/20190318algorithm/"/>
     <id>https://css0209.cn/20190318algorithm/</id>
     <published>2019-03-18T09:58:38.000Z</published>
-    <updated>2019-03-18T11:12:57.000Z</updated>
+    <updated>2019-03-21T02:42:57.000Z</updated>
     
     <summary type="html">
     
@@ -36,7 +60,7 @@
     
     </summary>
     
-      <category term="算法" scheme="https://css0209.cn/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="蓝桥杯,经验" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF-%E7%BB%8F%E9%AA%8C/"/>
     
     
   </entry>
@@ -474,31 +498,6 @@
         
         
           &lt;h1 id=&quot;快乐数&quot;&gt;&lt;a href=&quot;#快乐数&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="蓝桥杯训练" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF%E8%AE%AD%E7%BB%83/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>蛇形填数&amp;&amp;化学分子量</title>
-    <link href="https://css0209.cn/20181222lanqiao20181222/"/>
-    <id>https://css0209.cn/20181222lanqiao20181222/</id>
-    <published>2018-12-22T14:43:12.000Z</published>
-    <updated>2018-12-22T15:05:06.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;蛇形填数&quot;&gt;&lt;a href=&quot;#蛇形填数&quot; class=&quot;headerlink&quot; title=&quot;蛇形填数&quot;&gt;&lt;/a&gt;蛇形填数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
         
       
     
