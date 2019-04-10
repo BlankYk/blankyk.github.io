@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://css0209.cn/"/>
-  <updated>2019-03-21T09:05:40.000Z</updated>
+  <updated>2019-04-10T10:18:49.000Z</updated>
   <id>https://css0209.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring boot和React跨域请求解决</title>
+    <link href="https://css0209.cn/20190410springboot&amp;react/"/>
+    <id>https://css0209.cn/20190410springboot&amp;react/</id>
+    <published>2019-04-10T10:12:01.000Z</published>
+    <updated>2019-04-10T10:18:49.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;首先是在React，前端上只需要注意请求是POST请求，因为GET请求会有一个错误，然后就是用fetch传输了&lt;br&gt;&lt;div class=&quot;highlight-wrap&quot;autocomplete=&quot;off&quot; autocorrect=&quot;off&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="spring_boot" scheme="https://css0209.cn/categories/spring-boot/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>兰顿蚂蚁</title>
@@ -473,31 +497,6 @@
         
           &lt;h1 id=&quot;李白打酒&quot;&gt;&lt;a href=&quot;#李白打酒&quot; class=&quot;headerlink&quot; title=&quot;李白打酒&quot;&gt;&lt;/a&gt;李白打酒&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;话说大诗人李白，一生好饮。幸好他从不开车。&lt;br&gt;   
-        
-      
-    
-    </summary>
-    
-      <category term="蓝桥杯训练" scheme="https://css0209.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF%E8%AE%AD%E7%BB%83/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>特殊回文数&amp;&amp;最少乘法次数</title>
-    <link href="https://css0209.cn/20190101lanqiao20181227/"/>
-    <id>https://css0209.cn/20190101lanqiao20181227/</id>
-    <published>2019-01-01T09:57:25.000Z</published>
-    <updated>2019-01-19T10:59:58.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;特殊回文数&quot;&gt;&lt;a href=&quot;#特殊回文数&quot; class=&quot;headerlink&quot; title=&quot;特殊回文数&quot;&gt;&lt;/a&gt;特殊回文数&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/images/loading1.gif&quot;
         
       
     
